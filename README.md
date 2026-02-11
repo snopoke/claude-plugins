@@ -1,4 +1,4 @@
-# snopoke's Claude Code Plugin Marketplace
+# Claude Code Plugin Marketplace
 
 A collection of Claude Code plugins.
 
