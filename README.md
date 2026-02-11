@@ -23,11 +23,12 @@ The target web application must be running and accessible before creating a demo
 
 ## Installation
 
-```bash
-claude --plugin-dir /path/to/showboat-plugin
-```
+Add the marketplace and install the plugin:
 
-Or add to your project's `.claude/plugins` configuration.
+```shell
+/plugin marketplace add snopoke/showboat-claude-plugin
+/plugin install showboat@snopoke-showboat-claude-plugin
+```
 
 ## Usage
 

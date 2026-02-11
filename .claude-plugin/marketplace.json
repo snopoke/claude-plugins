@@ -1,0 +1,13 @@
+{
+  "name": "showboat-claude-plugin",
+  "owner": {
+    "name": "snopoke"
+  },
+  "plugins": [
+    {
+      "name": "showboat",
+      "source": ".",
+      "description": "Create executable demo documents using showboat and rodney CLI tools for browser automation and screenshot capture."
+    }
+  ]
+}
