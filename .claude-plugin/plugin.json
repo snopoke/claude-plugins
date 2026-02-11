@@ -1,0 +1,8 @@
+{
+  "name": "showboat",
+  "version": "0.1.0",
+  "description": "Create executable demo documents using showboat and rodney CLI tools for browser automation and screenshot capture.",
+  "author": {
+    "name": "snopoke"
+  }
+}
