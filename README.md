@@ -43,14 +43,18 @@ Ask Claude to create a demo:
 ```
 showboat-plugin/
   .claude-plugin/
-    plugin.json
-  skills/
-    demo-creation/
-      SKILL.md                      # Main skill (workflow + patterns)
-      references/
-        rodney-commands.md           # Full rodney CLI reference
-        showboat-commands.md         # Full showboat CLI reference
-      examples/
-        demo-workflow.md             # Annotated example session
+    marketplace.json                 # Marketplace catalog
+  plugins/
+    showboat/
+      .claude-plugin/
+        plugin.json                  # Plugin manifest
+      skills/
+        demo-creation/
+          SKILL.md                   # Main skill (workflow + patterns)
+          references/
+            rodney-commands.md       # Full rodney CLI reference
+            showboat-commands.md     # Full showboat CLI reference
+          examples/
+            demo-workflow.md         # Annotated example session
   README.md
 ```

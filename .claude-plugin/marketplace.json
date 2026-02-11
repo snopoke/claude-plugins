@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "showboat",
-      "source": ".",
+      "source": "./plugins/showboat",
       "description": "Create executable demo documents using showboat and rodney CLI tools for browser automation and screenshot capture."
     }
   ]
